@@ -1,6 +1,6 @@
 # Atomy
 
-A Desktop Automation Library in C++ (Linux/Windows)  
+A Desktop `A`u`tom`ation Librar`y` in C++ (Linux/Windows)  
 =============================================
 
 The **Atomy** library provides simple mouse, keyboard, screen control, and screenshot functionality through a single header file.
