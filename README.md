@@ -25,9 +25,9 @@ Atomy::Mouse::moveMouseTo(x, y); // Moves the cursor to coordinates (x, y)
 
 ### Mouse Button Press
 ```cpp
-Atomy::Mouse::mouseKeyDown(Atomy::LeftButton);   // Press the left mouse button
-Atomy::Mouse::mouseKeyUp(Atomy::LeftButton);     // Release the left mouse button
-Atomy::Mouse::clickMouse(Atomy::RightButton);    // Click the right mouse button
+Atomy::Mouse::mouseButtonDown(Atomy::LeftButton);   // Press the left mouse button
+Atomy::Mouse::mouseButtonUp(Atomy::Mouse::LeftButton);     // Release the left mouse button
+Atomy::Mouse::clickMouseButton(Atomy::Mouse::RightButton);    // Click the right mouse button
 ```
 
 ### Get Mouse Position
@@ -44,7 +44,7 @@ Atomy::Mouse::scrollMouse(-1);  // Scroll down
 
 ### Check Mouse Button State
 ```cpp
-if (Atomy::Mouse::isMouseButtonPressed(Atomy::LeftButton)) {
+if (Atomy::Mouse::isMouseButtonPressed(Atomy::Mouse::LeftButton)) {
     // Left button is currently pressed
 }
 ```
